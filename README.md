@@ -39,11 +39,11 @@ This is a simple CRUD (Create, Read, Update, Delete) todo application built with
 
 5. Access the endpoints from.
    Here are the lists of endpoints
-   `GET - http://localhost:5001/api/v1/todos (get all todos)`
-   `POST - http://localhost:5001/api/v1/todo (create new item) (url encoded)`
-   `DELETE - http://localhost:5001/api/v1/todo/:id (delete item)`
-   `PUT - http://localhost:5001/api/v1/todo/:id (update item) (url encoded)`
-   `GET - http://localhost:5001/api/v1/todo/:id (get single todo item)`
+    - `GET - http://localhost:5001/api/v1/todos (get all todos)`
+    - `POST - http://localhost:5001/api/v1/todo (create new item) (url encoded)`
+    - `DELETE - http://localhost:5001/api/v1/todo/:id (delete item)`
+    - `PUT - http://localhost:5001/api/v1/todo/:id (update item) (url encoded)`
+    - `GET - http://localhost:5001/api/v1/todo/:id (get single todo item)`
 
 - Frontend application will be accessible by `http://localhost:3000`
 
