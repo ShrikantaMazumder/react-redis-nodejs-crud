@@ -54,10 +54,9 @@ services:
   client:
     build:
       context: ./client
-      target: runner
     volumes:
       - ./client:/app
-    command: npm run dev
+    command: npm start
     ports:
       - "3000:3000"
     environment:
