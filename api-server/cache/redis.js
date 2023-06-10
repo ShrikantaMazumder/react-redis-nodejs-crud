@@ -30,7 +30,6 @@ export const setCache = async (key, value) => {
 
 // get cache data from redis
 export const getCache = async (key) => {
-  console.log("connection");
   await redisClient.connect();
 
   // handle connection error

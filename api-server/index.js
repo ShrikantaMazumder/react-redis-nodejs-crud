@@ -21,6 +21,7 @@ app.get("/", (req, res) => {
   res.send(process.env.DATABASE_URL);
 });
 
-app.use(TodoRoute);
+// v1 endpoints
+app.use("/api/v1", TodoRoute);
 
 app.listen(port, () => console.log("Server running on:", port))
